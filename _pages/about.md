@@ -19,7 +19,8 @@ redirect_from:
 
  I am currently pursuing a Master Degree at the College of Information Science and Electronic Engineering at Zhejiang University under the supervision of Assoc. Prof. Gong Xiao-jin. Prior to this, I received my Bachelor’s degree from the same college.
 
-My research interest includes depth estimation and depth completion. You can also use google scholar badge <a href='https://scholar.google.com/citations?user=XxQlRbkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interest includes depth estimation and depth completion. 
+<!-- You can also use google scholar badge <a href='https://scholar.google.com/citations?user=XxQlRbkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 
 # 🔥 News
