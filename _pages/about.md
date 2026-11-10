@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
- I am currently pursuing a Master Degree at the College of Information Science and Electronic Engineering at Zhejiang University under the supervision of Assoc. Prof. Gong Xiao-jin. Prior to this, I received my Bachelor’s degree from the same college.
+ I am currently pursuing a Master Degree at the College of Information Science and Electronic Engineering at Zhejiang University under the supervision of Assoc. Prof. Gong Xiao-jin ([Homepage](https://person.zju.edu.cn/gongxj/609820.html)). Prior to this, I received my Bachelor’s degree from the same college.
 
-My research interest includes depth estimation and depth completion. 
+My research interests lie in 3D vision, particularly depth estimation and depth completion.
 
 
 # 🔥 News
@@ -40,6 +40,27 @@ Leyuan Yu, Xiao Tang, Minghao Liu, Xinyuan Li, Xiaokai Bai, <u>Xiang Li</u>, She
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/lift.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LIFT: Local Metric Alignment and Foundation-guided Propagation for Few-shot Depth Completion](https://arxiv.org/abs/2611.10729)
+
+<u>Xiang Li</u>, Xiaojin Gong
+
+- Submitted to RAL.
+</div>
+</div>
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/lift.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SG4D: Surface-Guided Gaussians for Sparse-View Dynamic Reconstruction](https://arxiv.org/abs/2607.00491)
+
+Leyuan Yu, Xiaokai Bai, Yigang Wang, Sicheng Li, <u>Xiang Li</u>, Chengxing Fan
+
+- Submitted to CVPR2027.
+</div>
+</div> -->
 
 # 🎖 Honors and Awards
 - *2023.08* 3rd Prize, Zhejiang Province, "TI Cup" National Undergraduate Electronic Design Contest.
