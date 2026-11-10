@@ -28,7 +28,7 @@ My research interests lie in 3D vision, particularly depth estimation and depth 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/lift.png' alt="LIFT framework overview" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/lift.jpg' alt="LIFT framework overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LIFT: Local Metric Alignment and Foundation-guided Propagation for Few-shot Depth Completion](https://arxiv.org/abs/2611.10729)
