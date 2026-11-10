@@ -64,10 +64,11 @@
             display: block;
             width: 100%;
             height: auto;
-            aspect-ratio: 2 / 1;
+            aspect-ratio: 2540 / 780;
             background-color: #fff;
             box-shadow: 3px 3px 6px #888;
             object-fit: contain;
+            object-position: center;
         }
     }
     
