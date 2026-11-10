@@ -28,18 +28,6 @@ My research interests lie in 3D vision, particularly depth estimation and depth 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/mindedit-bench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MindEdit-Bench: Benchmarking Object-Level Counterfactual Spatial Reasoning in VLMs from In-the-Wild Photos](https://arxiv.org/abs/2607.00491)
-
-Leyuan Yu, Xiao Tang, Minghao Liu, Xinyuan Li, Xiaokai Bai, <u>Xiang Li</u>, Sheng Zhou, Qunshu Lin, Yigang Wang, Weihao Xuan, Naoto Yokoya
-
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
-- Submitted to NAACL 2027.
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/lift.png' alt="LIFT framework overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -48,6 +36,18 @@ Leyuan Yu, Xiao Tang, Minghao Liu, Xinyuan Li, Xiaokai Bai, <u>Xiang Li</u>, She
 <u>Xiang Li</u>, Xiaojin Gong
 
 - Submitted to RAL.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/mindedit-bench.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MindEdit-Bench: Benchmarking Object-Level Counterfactual Spatial Reasoning in VLMs from In-the-Wild Photos](https://arxiv.org/abs/2607.00491)
+
+Leyuan Yu, Xiao Tang, Minghao Liu, Xinyuan Li, Xiaokai Bai, <u>Xiang Li</u>, Sheng Zhou, Qunshu Lin, Yigang Wang, Weihao Xuan, Naoto Yokoya
+
+<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+- Submitted to NAACL 2027.
 </div>
 </div>
 
