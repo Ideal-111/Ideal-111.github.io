@@ -72,3 +72,11 @@ Leyuan Yu, Xiaokai Bai, Yigang Wang, Sicheng Li, <u>Xiang Li</u>, Chengxing Fan
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+
+<span class='anchor' id='photography'></span>
+
+# 📷 Photography
+
+<!-- 把照片放入 images/photography/ 即可自动展示，按文件名排序。
+支持 JPG、JPEG、PNG、WebP、AVIF；可用 01-west-lake.jpg 等文件名控制顺序。 -->
+{% include photography.html %}

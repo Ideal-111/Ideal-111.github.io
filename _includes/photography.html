@@ -1,0 +1,26 @@
+{% assign photo_count = 0 %}
+{% assign sorted_files = site.static_files | sort: 'path' %}
+{% capture photo_items %}
+{% for file in sorted_files %}
+  {% assign extension = file.extname | downcase %}
+  {% if file.path contains '/images/photography/' %}
+    {% if extension == '.jpg' or extension == '.jpeg' or extension == '.png' or extension == '.webp' or extension == '.avif' %}
+      {% assign photo_count = photo_count | plus: 1 %}
+      {% assign photo_label = file.basename | replace: '-', ' ' | replace: '_', ' ' %}
+      {% assign photo_info = site.data.photography[file.name] %}
+      {% assign photo_title = photo_info.title | default: photo_label %}
+      <figure class="photography-card">
+        <a class="photography-item image-popup" href="{{ file.path | relative_url | escape }}" title="{{ photo_title | escape }}" aria-label="View photo: {{ photo_title | escape }}">
+          <img src="{{ file.path | relative_url | escape }}" alt="{{ photo_info.alt | default: photo_title | escape }}" loading="lazy" decoding="async">
+        </a>
+        <figcaption><span class="photography-number" aria-hidden="true">{% if photo_count < 10 %}0{% endif %}{{ photo_count }}</span><span>{{ photo_title | escape }}</span></figcaption>
+      </figure>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% endcapture %}
+{% if photo_count > 0 %}
+<div class="photography-gallery">{{ photo_items }}</div>
+{% else %}
+<p class="photography-empty">Photos coming soon.</p>
+{% endif %}

@@ -1,0 +1,11 @@
+# 可选的照片信息；文件名应与 images/photography/ 中一致。
+# 新照片不填写此文件也会自动展示。
+school.jpg:
+  title: Campus
+  alt: Sunlit campus buildings surrounded by wooded hills
+westlake1.jpg:
+  title: West Lake · Sunset
+  alt: Golden sunset clouds reflected on West Lake
+westlake2.jpg:
+  title: West Lake · Blue Hour
+  alt: Pink clouds above blue hills and West Lake at twilight
