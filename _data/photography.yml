@@ -1,7 +1,7 @@
 # 可选的照片信息；文件名应与 images/photography/ 中一致。
 # 新照片不填写此文件也会自动展示。
 school.jpg:
-  title: Campus
+  title: Campus · ZJU
   alt: Sunlit campus buildings surrounded by wooded hills
 westlake1.jpg:
   title: West Lake · Sunset
