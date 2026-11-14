@@ -93,20 +93,30 @@
 
 }
 
-.photography-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    align-items: start;
-    gap: 1.25rem;
+.photography-carousel {
+    min-width: 0;
     padding: 1.25rem;
-    margin: 1.25rem 0 2rem;
+    margin: 1.25rem auto 2rem;
     border: 1px solid #e6e3dd;
     border-radius: 12px;
     background: #f7f6f3;
 }
 
+.photography-gallery {
+    display: flex;
+    gap: 1.25rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #b9b4aa transparent;
+    padding-bottom: .6rem;
+}
+
 .photography-gallery .photography-card {
     display: block;
+    flex: 0 0 var(--photography-card-width, 100%);
+    box-sizing: border-box;
+    scroll-snap-align: start;
     min-width: 0;
     margin: 0;
     padding: 10px 10px 0;
@@ -172,11 +182,53 @@
     font-variant-numeric: tabular-nums;
 }
 
+.photography-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    padding-top: .8rem;
+}
+
+.photography-controls[hidden] {
+    display: none;
+}
+
+.photography-controls button {
+    margin: 0;
+    min-width: 44px;
+    min-height: 44px;
+    padding: .4rem .75rem;
+    border: 1px solid #d4cfc5;
+    border-radius: 6px;
+    background: #fff;
+    color: #464d52;
+    font: inherit;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.photography-controls button:hover {
+    background: #eeece7;
+}
+
+.photography-controls button:focus-visible,
+.photography-gallery:focus-visible {
+    outline: 3px solid #00369f;
+    outline-offset: 3px;
+}
+
+.photography-position {
+    min-width: 4rem;
+    text-align: center;
+    color: #777267;
+    font-size: .75em;
+    font-variant-numeric: tabular-nums;
+}
+
 @media (max-width: 480px) {
-    .photography-gallery {
-        grid-template-columns: minmax(0, 1fr);
+    .photography-carousel {
         padding: .75rem;
-        gap: 1rem;
     }
 }
 

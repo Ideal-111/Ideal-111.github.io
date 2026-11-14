@@ -20,7 +20,15 @@
 {% endfor %}
 {% endcapture %}
 {% if photo_count > 0 %}
-<div class="photography-gallery">{{ photo_items }}</div>
+<section class="photography-carousel" aria-label="Photography gallery" aria-roledescription="carousel">
+  <div class="photography-gallery" tabindex="0" aria-label="Photos; swipe or use the left and right arrow keys">{{ photo_items }}</div>
+  <div class="photography-controls" hidden>
+    <button class="photography-prev" type="button" aria-label="Previous photo">&#8592;</button>
+    <span class="photography-position" aria-label="Photo position"></span>
+    <button class="photography-next" type="button" aria-label="Next photo">&#8594;</button>
+    <button class="photography-autoplay" type="button" aria-label="Automatic slideshow" aria-pressed="false">Play</button>
+  </div>
+</section>
 {% else %}
 <p class="photography-empty">Photos coming soon.</p>
 {% endif %}
